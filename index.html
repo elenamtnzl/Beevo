@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de ejemplo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #1e88e5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #1565c0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background: #1e88e5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1565c0;
+        }
+
+        footer {
+            background: #1e88e5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mi primera página web</h1>
+    <p>Ejemplo básico con HTML, CSS y JavaScript</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<main>
+    <div class="card">
+        <h2>Bienvenida</h2>
+        <p>Esta es una página de ejemplo para aprender desarrollo web.</p>
+        <button onclick="saludar()">Haz clic aquí</button>
+    </div>
+
+    <div class="card">
+        <h2>Sobre esta página</h2>
+        <p>Está creada con una estructura básica y estilos modernos para que sirva como plantilla inicial.</p>
+    </div>
+</main>
+
+<footer>
+    <p>© 2026 - Página de ejemplo</p>
+</footer>
+
+<script>
+    function saludar() {
+        alert("¡Hola! Gracias por visitar la página.");
+    }
+</script>
+
+</body>
+</html>
